@@ -12,7 +12,8 @@ String a="";
 	       for (int j=2; j<=i; j++){
 	           a+=j;
 	       }
-	        a+="\n";}
+	       if(i<cathetusLength){
+	        a+="\n";}}
 	        System.out.println(a);
     }
 

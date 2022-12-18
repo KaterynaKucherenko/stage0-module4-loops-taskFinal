@@ -13,7 +13,7 @@ String a="";
 	           a+=j;
 	       }
 	        a+="\n";}
-	        System.out.print(a);
+	        System.out.println(a);
     }
 
     public static void main(String[] args) {

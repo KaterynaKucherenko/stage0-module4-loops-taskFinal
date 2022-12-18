@@ -2,15 +2,18 @@ package school.mjc.stage0.loops.finalTask;
 
 public class Pyramid {
     public void printPyramid(int cathetusLength) {
-for(int i=1; i<=cathetusLength; i++){
+String a="";
+	for(int i=1; i<=cathetusLength; i++){
 	      int x=i;
 	       for (int j=i; j<=cathetusLength; j++){
-	           System.out.print(" ");}
+	           a+=" ";}
 	       for (int j=1; j<=i; j++){
-	            System.out.print(x--);}
+	            a+=(x--);}
 	       for (int j=2; j<=i; j++){
-	           System.out.print(j);}
-	        System.out.println();}
+	           a+=j;
+	       }
+	        a+="\n";}
+	        System.out.print(a);
     }
 
     public static void main(String[] args) {
